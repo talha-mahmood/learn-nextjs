@@ -2,7 +2,7 @@
 
 Solidity supports three types of variables.
 
-### State Variables
+#State Variables
 
 Variables whose values are permanently stored in a contract storage.
 
@@ -39,7 +39,6 @@ contract SolidityTest {
 
 These are special variables which exist in global workspace and provide information about the blockchain and transaction properties.
 
-## Solidity Functions
 
 ### `blockhash(uint blockNumber) returns (bytes32)`
 Hash of the given block - only works for 256 most recent, excluding current, blocks
