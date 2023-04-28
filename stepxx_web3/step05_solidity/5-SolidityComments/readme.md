@@ -1,6 +1,6 @@
 pragma solidity >=0.4.0 <0.6.0;
 
-// This is a simple Solidity file with a single contract definition
+```// This is a simple Solidity file with a single contract definition
 contract SimpleStorage {
    uint storedData; // state variable
 
@@ -13,4 +13,4 @@ contract SimpleStorage {
    function get() public view returns (uint) {
       return storedData; // return the value of storedData
    }
-}
+}```
