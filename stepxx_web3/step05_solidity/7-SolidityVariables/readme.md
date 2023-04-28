@@ -2,7 +2,7 @@
 
 Solidity supports three types of variables.
 
-#State Variables
+###State Variables
 
 Variables whose values are permanently stored in a contract storage.
 
@@ -15,7 +15,7 @@ contract SolidityTest {
    }
 }
 
-#Local Variables
+###Local Variables
 
 Variables whose values are available only within a function where it is defined. Function parameters are always local to that function.
 
